@@ -1,2 +1,4 @@
 flask
 transformers
+onnxruntime
+numpy>=1.21.6

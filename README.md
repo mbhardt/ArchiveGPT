@@ -4,7 +4,7 @@
 
 ## Key Features
 - **It's customizable**: ArchiveGPT is designed to be as plug-and-play as possible.
-- **It's lightweight**: There's only 2 dependencies: Flask and Huggingface Transformers.
+- **It's lightweight**: There's only 4 dependencies: Flask, Huggingface Transformers, ONNX Runtime, and NumPy.
 
 ## Requirements
 - Python 3.x.x
@@ -27,17 +27,17 @@ pip install -r requirements.txt
 ## Quick Start
 1. **Set up your deployment**:
    - Set up `config.yaml`
-   - Write a system prompt for your character in `src/base_description.txt`
-   - Add the images of your character in `src/public/assets/sprites/{normal/alt/alt2}`
-   - Add the backgrounds you want in `src/public/assets/backgrounds`
-   - Change `SPRITE_COUNT`, `MAX_IMAGES`, and `STUDENT_NAME` in `src/public/assets/script.js` (MAX_IMAGES refers to background images)
+   - Write a system prompt for your character in `base_description.txt`
+   - Add the images of your character in `public/assets/sprites/{normal/alt/alt2}`
+   - Add the backgrounds you want in `public/assets/backgrounds`
+   - Change `SPRITE_COUNT`, `MAX_IMAGES`, and `STUDENT_NAME` in `public/assets/script.js` (MAX_IMAGES refers to background images)
    - You're done!
 
 
 2. **Run the server**:
 
 ```bash
-cd src
+cd ArchiveGPT
 python main.py
 ```
 
