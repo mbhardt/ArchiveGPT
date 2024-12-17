@@ -1,0 +1,3 @@
+This program uses a text classifier model trained on the GoEmotions dataset, which is labeled for 28 emotion categories. The repository can be found at Huggingface (https://huggingface.co/datasets/google-research-datasets/go_emotions) or Kaggle (https://www.kaggle.com/datasets/debarshichanda/goemotions).
+
+Because of this, there must be 28 png images in each subfolder corresponding to each emotion, all lowercase. You can use the example deployment as a reference for the images.

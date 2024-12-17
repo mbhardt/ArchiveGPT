@@ -1,0 +1,13 @@
+### THIS IS AN EXAMPLE CONFIG --- CHANGE IT
+
+
+api_url: #full api url of your provider (e.g. https://api.sambanova.ai/v1/chat/completions)
+key: #the key your api provider gives you
+database: chat_history.db #name of the database that stores all messages
+max_context_size: 16 #this sets how much memory the AI has
+port: 8080
+payload: #this configures the AI and how it acts
+  model: Meta-Llama-3.1-70B-Instruct
+  max_tokens: 200
+  temperature: 0.8
+  stream: True

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MariGPT</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="popupstyles.css">
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+</head>
+<body>
+    <div id="student-container">
+        <img id="student-image" src="assets/sprites/normal/neutral.png">
+        <div id="chat-box">
+            <div id="chat-display"></div>
+            <div id="input-box">  
+                <input type="text" id="user_input" placeholder="Type your message here...">
+                <button id="send-btn">Send</button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Audio element for background music -->
+    <audio id="bg-music" src="bg.mp3" loop></audio>
+    <!-- Popup button for the credit modal -->
+    <button id="credit-btn" class="credit-button">Credits</button>
+    <!-- Popup button for the credit modal -->
+    <button id="background-btn" class="background-button">Change Background</button>
+    <!-- Button for variations -->
+    <button id="sprite-btn" class="background-button sprite-button">Change Sprite</button>
+    <script src="script.js?v=1.1"></script>
+</body>
+</html>

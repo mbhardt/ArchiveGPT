@@ -1,0 +1,1 @@
+Each background image must be a jpg named "Background{number}". For example, the first background is called, "Background1", the second, "Background2", etc. You can copy, paste, and rename some images from the "example_bgs" folder to use in your deployment.
