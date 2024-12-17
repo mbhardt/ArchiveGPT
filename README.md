@@ -5,8 +5,7 @@
 ## Key Features
 - **It's customizable**: ArchiveGPT is designed to be as plug-and-play as possible.
 - **It's lightweight**: There's only 2 dependencies: Flask and Huggingface Transformers.
-- **Scalable**: With ArchiveGPT, you'll only have to worry about scaling 
-- **Front-End Ready**: Compatible with most front-end interfaces for seamless integration.
+- **Scalable**: With ArchiveGPT, you'll only have to worry about scaling.
 
 ## Requirements
 - Python 3.x.x
